@@ -1,0 +1,58 @@
+19:01:46 INFO  : Launching XSDB server: xsdb.bat C:/Logiciels/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+19:01:50 INFO  : XSDB server has started successfully.
+19:02:01 INFO  : Processing command line option -hwspec C:/Temp/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper.hdf.
+19:22:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:22:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685961" && level==0} -index 1' command is executed.
+19:22:53 INFO  : FPGA configured successfully with bitstream "C:/Temp/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper_hw_platform_0/design_TP1_wrapper.bit"
+19:26:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:26:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685961" && level==0} -index 1' command is executed.
+19:26:06 INFO  : FPGA configured successfully with bitstream "C:/Temp/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper_hw_platform_0/design_TP1_wrapper.bit"
+10:24:08 INFO  : Launching XSDB server: xsdb.bat C:/Logiciels/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:24:12 INFO  : XSDB server has started successfully.
+10:24:17 INFO  : Processing command line option -hwspec X:/Bureau/Projet_3/TP1/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper.hdf.
+10:24:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:24:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684603" && level==0} -index 1' command is executed.
+10:24:49 INFO  : FPGA configured successfully with bitstream "X:/Bureau/Projet_3/TP1/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper_hw_platform_0/design_TP1_wrapper.bit"
+10:26:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:26:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248684603" && level==0} -index 1' command is executed.
+10:26:28 INFO  : FPGA configured successfully with bitstream "X:/Bureau/Projet_3/TP1/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper_hw_platform_0/design_TP1_wrapper.bit"
+11:24:16 INFO  : Launching XSDB server: xsdb.bat C:/Logiciels/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:24:18 INFO  : XSDB server has started successfully.
+11:24:20 INFO  : Processing command line option -hwspec X:/Bureau/Projet_3/TP1/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper.hdf.
+11:24:20 INFO  : Checking for hwspec changes in the project design_TP1_wrapper_hw_platform_1.
+11:49:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:49:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685964" && level==0} -index 1' command is executed.
+11:49:12 INFO  : FPGA configured successfully with bitstream "X:/Bureau/Projet_3/TP1/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper_hw_platform_0/design_TP1_wrapper.bit"
+11:50:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:50:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685964" && level==0} -index 1' command is executed.
+11:50:31 INFO  : FPGA configured successfully with bitstream "X:/Bureau/Projet_3/TP1/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper_hw_platform_0/design_TP1_wrapper.bit"
+11:51:56 INFO  : ps7_init is completed.
+11:51:56 INFO  : ps7_post_config is completed.
+11:51:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:51:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685964" && level==0} -index 1' command is executed.
+11:52:00 INFO  : FPGA configured successfully with bitstream "X:/Bureau/Projet_3/TP1/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper_hw_platform_0/design_TP1_wrapper.bit"
+11:53:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:53:56 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:54:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685964" && level==0} -index 1' command is executed.
+11:54:12 INFO  : FPGA configured successfully with bitstream "X:/Bureau/Projet_3/TP1/Lab_TP1/Lab_TP1.sdk/design_TP1_wrapper_hw_platform_0/design_TP1_wrapper.bit"
+11:54:16 INFO  : ps7_init is completed.
+11:54:16 INFO  : ps7_post_config is completed.
+11:54:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:56:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
